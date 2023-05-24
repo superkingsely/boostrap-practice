@@ -6,13 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
     <style>
-        *{
+        div,nav,main {
             border: 2px solid;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
         }
     </style>
 </head>
 <body>
-    
+    <!-- parent -->
+    <div class="container-fluid gx-0  d-flex flex-column" style="min-height: 100vh;">
+
+        <!-- navbar -->
+    <nav class="navbar bg-primary ">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="./bootstrap-components/navbar.html">Navbar</a>
+        </div>
+    </nav>
+    <main class="container-lg bg-danger 
+     flex-grow-1">
+
+    </main>
+    <footer class="container-fluid bg-info" style="min-height: 10vh;">
+    </footer>
+    </div>
 </body>
 </html>
