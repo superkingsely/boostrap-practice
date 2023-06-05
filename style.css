@@ -1,3 +1,15 @@
-:root{
-    --bs-primary: #0dfd89;
+*{
+    border: 2px solid;
+}
+
+.background{
+    min-height: 100vh;
+    background-image: url('./public/marvin-meyer-SYTO3xs06fU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background-overlay{
+    background-color: rgba(0, 0, 255, 0.341);
 }

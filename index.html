@@ -7,31 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
-    <style>
-        div,nav,main {
-            border: 2px solid;
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-    </style>
+    
 </head>
 <body>
-    <!-- parent -->
-    <div class="container-fluid gx-0  d-flex flex-column" style="min-height: 100vh;">
-
-        <!-- navbar -->
-    <nav class="navbar bg-primary ">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="./bootstrap-components/navbar.html">Navbar</a>
+   <div class="container-fluid background d-flex flex-column gx-0">
+        <div class="container-fluid background-overlay flex-grow-1 d-flex flex-column">
+            <div class="row flex-grow-1 d-flex">
+                <div class="col text-info align-self-center " style="">
+                    <div>
+                    <span class="h1">
+                        WELCOME TO THE PARTY
+                    </span>
+                </div>
+                </div>
+                <div class="col-md-6 align-self-center text-danger text-center"
+                >
+                    <img width="50%" src="./public/favpng_naruto-uzumaki-naruto-shippūden-ultimate-ninja-impact-kakashi-hatake-minato-namikaze-nine-tailed-fox.png" alt="">
+                </div>
+            </div>
         </div>
-    </nav>
-    <main class="container-lg bg-danger 
-     flex-grow-1">
-
-    </main>
-    <footer class="container-fluid bg-info" style="min-height: 10vh;">
-    </footer>
-    </div>
+   </div>
 </body>
 </html>
